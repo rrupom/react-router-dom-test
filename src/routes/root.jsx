@@ -18,7 +18,7 @@ export default function Root() {
             <div id="search-spinner" aria-hidden hidden={true} />
             <div className="sr-only" aria-live="polite"></div>
           </form>
-          <Form method="post">
+          <Form method="post" action = "">
             <button type="submit">New</button>
           </Form>
         </div>
